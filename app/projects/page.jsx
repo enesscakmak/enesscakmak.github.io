@@ -14,7 +14,7 @@ export default function ProjectsPage() {
       tech: ["HTML", "Python", "Tailwind CSS", "Flask"],
       image: "/weather.png",
       github: "https://github.com/enesscakmak/weather-app",
-      demo: "https://enescakmak.net/weather/templates/index.html",
+      demo: "https://enescakmak.net/weather/templates/",
     },
     {
       type: "featured",
