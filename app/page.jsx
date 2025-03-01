@@ -209,7 +209,7 @@ function FeaturedProject() {
             <div className="flex items-center gap-2">
               <h3 className="text-xl font-medium text-zinc-900 dark:text-zinc-50">Weather Page</h3>
               <Link
-                href="https://enesscakmak.github.io/enescakmak.github.io/weather/templates/"
+                href="https://enescakmak.net/weather/templates/index.html"
                 className="text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50"
                 target="_blank"
                 rel="noopener noreferrer"
