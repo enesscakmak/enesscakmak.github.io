@@ -21,10 +21,10 @@ export default function Home() {
             <div className="mx-auto max-w-3xl space-y-8">
               <div className="space-y-6">
                 <h1 className="text-xl font-semibold tracking-tight sm:text-xl lg:text-6xl text-zinc-900 dark:text-zinc-50">
-                  computer engineer
+                  enes çakmak
                 </h1>
                 <p className="max-w-[60ch] text-base text-zinc-600 dark:text-zinc-400">
-                Hi, I'm Enes Çakmak, a frontend developer and Computer Engineering student at Marmara 
+                  Hi, I'm Enes Çakmak, a frontend developer and Computer Engineering student at Marmara 
                   University in Istanbul. I enjoy building clean and user-friendly web interfaces, 
                   always looking to learn and improve my skills.  
                 </p>

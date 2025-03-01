@@ -1,0 +1,95 @@
+[33mcommit 55c8d55258aab3cdc76e40dc77784a3404b6f143[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mstatic-version[m[33m)[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Sat Mar 1 01:37:24 2025 +0300
+
+    feat: turnstil improvements
+
+[33mcommit 35a4a173def1a4e3374e30a0ecded93666a63edb[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Sat Mar 1 01:21:28 2025 +0300
+
+    add: cloudflare turnstile
+
+[33mcommit 4b6d4c103c4802608816b20879c9e63f3da59c5b[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Sat Mar 1 00:52:17 2025 +0300
+
+    dark and white mode fix
+
+[33mcommit e855d385daa5e2c300bd14dc61b0fabe0251a274[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Fri Feb 28 01:43:40 2025 +0300
+
+    title and image path fixes
+
+[33mcommit f516604e34c4a8918bc7a60cb0798fdb49dd572e[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Thu Feb 27 13:11:13 2025 +0300
+
+    next export fix
+
+[33mcommit d6c154abba14f47cbb9d223ac50371683f1636f7[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Thu Feb 27 11:41:06 2025 +0300
+
+    cloudflare pages fix
+
+[33mcommit 40d6a23c14daec896f1ce947fa3b7fb15e2e1d4d[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Thu Feb 27 11:32:32 2025 +0300
+
+    cloudflare fix
+
+[33mcommit 49bb8928cbc89f81873a5173cac4baa6d8aa8ffb[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Thu Feb 27 11:27:29 2025 +0300
+
+    fix of pages
+
+[33mcommit f533e7deb6985ffbdf8d735710fbd615bde1abf4[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Mon Feb 24 23:47:23 2025 +0300
+
+    cloudflare pages fix
+
+[33mcommit b1969e27e23c9bda5a67e88b64df072da53f6059[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Mon Feb 24 23:32:14 2025 +0300
+
+    new build
+
+[33mcommit 3863a7db11a228255a01477700a3287a04b41c3b[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Mon Feb 24 23:22:18 2025 +0300
+
+    changes for enescakmak.net
+
+[33mcommit 3b0e5df26e0d34d6d36363cc1dc521db98db8f3e[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Mon Feb 24 20:03:53 2025 +0300
+
+    Update workflow and regenerate pnpm
+
+[33mcommit 4c3d3ac076cb77b5225d8b553f1a33ff96bff2d1[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Mon Feb 24 19:58:14 2025 +0300
+
+    Fix CSP and routing
+
+[33mcommit a4b3856ae684523b8ba3a58e27ce61c1df80c1a5[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Mon Feb 24 19:43:34 2025 +0300
+
+    repo moved to username
+
+[33mcommit 6b23651000e5421750e49e3a237cecdf89cbc9cf[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Mon Feb 24 19:21:39 2025 +0300
+
+    Update portfolio with Next.js static version
+
+[33mcommit 552207c47ebb3364a78a71f6119a48c20007bc75[m
+Author: Enes Çakmak <cakmakkeness@gmail.com>
+Date:   Mon Feb 24 17:34:38 2025 +0300
+
+    new fix for static pages

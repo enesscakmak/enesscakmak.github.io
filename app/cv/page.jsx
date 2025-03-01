@@ -19,7 +19,7 @@ export default function CVPage() {
                 className="bg-zinc-900 hover:bg-zinc-800 dark:bg-zinc-50 dark:hover:bg-zinc-200 
                   text-zinc-50 dark:text-zinc-900 transition-all duration-300 hover:scale-105"
               >
-                <Link href="/john-doe-cv.pdf" target="_blank">
+                <Link href="/cv_ny.pdf" target="_blank">
                   <Download className="mr-2 h-4 w-4" />
                   Download CV
                 </Link>
@@ -47,11 +47,13 @@ export default function CVPage() {
                 <h2 className="text-xl font-semibold mb-4 text-zinc-900 dark:text-zinc-50">Experience</h2>
                 <div className="space-y-4">
                   <div className="border-l-2 border-zinc-300 dark:border-zinc-700 pl-4 transition-all duration-300 hover:scale-[1.01]">
-                    <h3 className="font-semibold text-zinc-800 dark:text-zinc-200">IT Intern</h3>
+                    <h3 className="font-semibold text-zinc-800 dark:text-zinc-200">Intern</h3>
                     <p className="text-zinc-700 dark:text-zinc-400">Türk Telekom</p>
                     <p className="text-sm text-zinc-600 dark:text-zinc-500">09/2018 - 06/2019</p>
                     <ul className="list-disc list-inside mt-2 text-sm text-zinc-700 dark:text-zinc-400">
-                      <li>Maintained and updated the computer systems of the companys accounting and human resources departments.</li>
+                      <li>Assisted employees in troubleshooting hardware and software issues, ensuring smooth daily operations.</li>
+                      <li>Provided basic IT support to accounting and HR departments, resolving computer-related problems efficiently.</li>
+                      <li>Gained exposure to enterprise IT systems and learned about corporate IT infrastructure.</li>
                     </ul>
                   </div>
 
@@ -77,6 +79,8 @@ export default function CVPage() {
                     <ul className="list-disc list-inside text-sm text-zinc-700 dark:text-zinc-400">
                       <li>Tailwind CSS</li>
                       <li>Git</li>
+                      <li>Figma</li>
+                      <li>PostreSQL</li>
                     </ul>
                   </div>
                 </div>

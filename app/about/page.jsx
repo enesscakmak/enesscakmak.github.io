@@ -78,7 +78,7 @@ export default function AboutPage() {
                 </CardHeader>
                 <CardContent className="grid gap-3">
                   <div>
-                    <h3 className="font-semibold text-sm text-zinc-800 dark:text-zinc-200">IT Intern</h3>
+                    <h3 className="font-semibold text-sm text-zinc-800 dark:text-zinc-200">Intern</h3>
                     <p className="text-xs text-zinc-700 dark:text-zinc-400">Türk Telekom</p>
                     <p className="text-xs text-zinc-600 dark:text-zinc-500">09/2018 - 06/2019</p>
                   </div>
