@@ -1,6 +1,2 @@
-[build]
-command = "pnpm run build"
-output_dir = "out"
-
-[build.environment]
-NODE_VERSION = "18" 
+name = "enescakmak"
+pages_build_output_dir = "out"

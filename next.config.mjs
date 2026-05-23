@@ -1,6 +1,3 @@
-import { setupDevPlatform } from '@cloudflare/next-on-pages/next-dev';
-
-
 let userConfig = undefined
 try {
   userConfig = await import('./v0-user-next.config')
@@ -33,7 +30,8 @@ const nextConfig = {
 }
 
 if (process.env.NODE_ENV === 'development') {
-  await setupDevPlatform();
+  const { setupDevPlatform } = await import('@cloudflare/next-on-pages/next-dev')
+  await setupDevPlatform()
 }
 
 mergeConfig(nextConfig, userConfig)
