@@ -1,11 +1,9 @@
-import Image from "next/image"
 import Link from "next/link"
-import { GraduationCap, Briefcase, Award } from "lucide-react"
+import { GraduationCap, Briefcase } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Sidebar } from "@/components/sidebar"
-import Navigation from "@/components/navigation"
 
 export default function AboutPage() {
   return (
@@ -20,14 +18,10 @@ export default function AboutPage() {
               <div>
                 <h1 className="text-2xl font-bold tracking-tight md:text-3xl mb-4 text-zinc-900 dark:text-zinc-50">About Me</h1>
                 <p className="text-base text-zinc-700 dark:text-zinc-400 mb-4">
-                  I'm a 23 year old computer science student at Marmara University in Istanbul. 
-                  I'm interested in web development and machine learning. 
-                  
-
+                  I'm a Computer Engineering student at Marmara University in Istanbul, seeking a Junior Backend or Full-Stack Developer role. I build internal services and REST APIs with .NET 6, C#, and PostgreSQL, and work with CI/CD, Kubernetes, and log monitoring in production environments.
                 </p>
                 <p className="text-base text-zinc-700 dark:text-zinc-400 mb-6">
-                I'm trying to improve my skills in web development and looking for opportunities 
-                  to work on projects and internship opportunities so i can improve my skills and get experience.
+                  I also work with React, Next.js, and Tailwind CSS on the frontend. I'm open to backend-focused and full-stack opportunities where I can keep growing across the stack.
                 </p>
                 <div className="flex gap-3">
                   <Button 
@@ -49,9 +43,6 @@ export default function AboutPage() {
                   </Button>
                 </div>
               </div>
-              {/* <div className="relative aspect-square">
-                <Image src="/placeholder.svg" alt="Profile" fill className="object-cover rounded-lg" priority />
-              </div> */}
             </div>
 
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-12">
@@ -64,41 +55,31 @@ export default function AboutPage() {
                 <CardContent className="grid gap-3">
                   <div>
                     <h3 className="font-semibold text-sm text-zinc-800 dark:text-zinc-200">BSc in Computer Engineering</h3>
-                    <p className="text-xs text-zinc-700 dark:text-zinc-400">Marmara University</p>
+                    <p className="text-xs text-zinc-700 dark:text-zinc-400">Marmara University, Istanbul</p>
                     <p className="text-xs text-zinc-600 dark:text-zinc-500">2022 - Present</p>
                   </div>
                 </CardContent>
               </Card>
 
               <Card className="bg-white/80 dark:bg-zinc-800/50 border-zinc-200 dark:border-zinc-700
-                transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+                transition-all duration-300 hover:scale-[1.02] hover:shadow-lg md:col-span-2 lg:col-span-2">
                 <CardHeader className="pb-2">
                   <Briefcase className="w-6 h-6 mb-2 text-zinc-900 dark:text-zinc-50" />
                   <CardTitle className="text-lg text-zinc-900 dark:text-zinc-50">Experience</CardTitle>
                 </CardHeader>
-                <CardContent className="grid gap-3">
+                <CardContent className="grid gap-3 md:grid-cols-2">
+                  <div>
+                    <h3 className="font-semibold text-sm text-zinc-800 dark:text-zinc-200">Full Stack Developer Intern</h3>
+                    <p className="text-xs text-zinc-700 dark:text-zinc-400">Hepsiburada, Istanbul</p>
+                    <p className="text-xs text-zinc-600 dark:text-zinc-500">07/2025 - Present</p>
+                  </div>
                   <div>
                     <h3 className="font-semibold text-sm text-zinc-800 dark:text-zinc-200">Intern</h3>
-                    <p className="text-xs text-zinc-700 dark:text-zinc-400">Türk Telekom</p>
+                    <p className="text-xs text-zinc-700 dark:text-zinc-400">Türk Telekom, Tokat</p>
                     <p className="text-xs text-zinc-600 dark:text-zinc-500">09/2018 - 06/2019</p>
                   </div>
                 </CardContent>
               </Card>
-
-              {/* <Card className="bg-white/80 dark:bg-zinc-800/50 border-zinc-200 dark:border-zinc-700
-                transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
-                <CardHeader className="pb-2">
-                  <Award className="w-6 h-6 mb-2 text-zinc-900 dark:text-zinc-50" />
-                  <CardTitle className="text-lg text-zinc-900 dark:text-zinc-50">Achievements</CardTitle>
-                </CardHeader>
-                <CardContent className="grid gap-3">
-                  <div>
-                    <h3 className="font-semibold text-sm text-zinc-800 dark:text-zinc-200">Hackathon Winner</h3>
-                    <p className="text-xs text-zinc-700 dark:text-zinc-400">University Tech Festival</p>
-                    <p className="text-xs text-zinc-600 dark:text-zinc-500">2023</p>
-                  </div>
-                </CardContent>
-              </Card> */}
             </div>
           </div>
         </div>
@@ -106,4 +87,3 @@ export default function AboutPage() {
     </div>
   )
 }
-

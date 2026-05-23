@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Enes Çakmak — Developer",
-  description: "Software developer that likes clean interfaces.",
+  title: "Enes Çakmak — Backend & Full-Stack Developer",
+  description: "Computer Engineering student building backend services with .NET, PostgreSQL, and REST APIs, and full-stack apps with React and Next.js.",
 }
 
 export default function RootLayout({ children }) {

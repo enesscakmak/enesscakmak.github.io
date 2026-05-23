@@ -29,7 +29,7 @@ export default function ContactPage() {
               <div>
                 <h1 className="text-2xl font-bold tracking-tight md:text-3xl mb-4 text-zinc-900 dark:text-zinc-50">Contact</h1>
                 <p className="text-base text-zinc-700 dark:text-zinc-400 mb-6">
-                  I am looking for internship opportunities especially in the front end field. I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out.
+                  I'm open to junior backend, full-stack, and internship opportunities. I'm always interested in hearing about new projects and roles. Whether you have a question or just want to say hi, feel free to reach out.
                 </p>
               </div>
 
