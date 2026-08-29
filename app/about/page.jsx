@@ -20,19 +20,23 @@ export default function AboutPage() {
 									About Me
 								</h1>
 								<p className="text-base text-zinc-700 dark:text-zinc-400 mb-4">
-									I'm a Computer Engineering student at
+									I'm a Computer Engineering graduate from
 									Marmara University in Istanbul, seeking a
 									Junior Backend or Full-Stack Developer role.
-									I build internal services and REST APIs with
-									.NET 10, Java Spring Boot, and PostgreSQL,
-									and work with CI/CD, Kubernetes, and log
-									monitoring in production environments.
+									I build internal services and REST APIs
+									across two stacks (.NET 10 with C# and
+									ASP.NET Core, and Kotlin with Spring Boot)
+									on PostgreSQL, and work with Docker, CI/CD,
+									Kubernetes, HashiCorp Vault, and log
+									monitoring in production.
 								</p>
 								<p className="text-base text-zinc-700 dark:text-zinc-400 mb-6">
-									I also work with React, Next.js, and
-									Tailwind CSS on the frontend. I'm open to
-									backend-focused and full-stack opportunities
-									where I can keep growing across the stack.
+									On the frontend I ship production work in
+									React, TypeScript, Redux, and Tailwind CSS,
+									including micro-frontend (MFE) applications.
+									I'm open to backend-focused and full-stack
+									opportunities where I can keep growing
+									across the stack.
 								</p>
 								<div className="flex gap-3">
 									<Button
@@ -82,7 +86,7 @@ export default function AboutPage() {
 											Marmara University, Istanbul
 										</p>
 										<p className="text-xs text-zinc-600 dark:text-zinc-500">
-											2022 - Present
+											2022 - 2026
 										</p>
 									</div>
 								</CardContent>
@@ -107,12 +111,12 @@ export default function AboutPage() {
 											Hepsiburada, Istanbul
 										</p>
 										<p className="text-xs text-zinc-600 dark:text-zinc-500">
-											07/2025 - Present
+											07/2025 - 08/2026
 										</p>
 									</div>
 									<div>
 										<h3 className="font-semibold text-sm text-zinc-800 dark:text-zinc-200">
-											Intern
+											IT Intern
 										</h3>
 										<p className="text-xs text-zinc-700 dark:text-zinc-400">
 											Türk Telekom, Tokat

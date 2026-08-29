@@ -6,6 +6,20 @@ import { Sidebar } from "@/components/sidebar"
 
 const resumeProjects = [
   {
+    title: "Project & Research Paper: Game Analysis with Image Processing",
+    description:
+      "End-to-end computer vision system that reads Okey tiles from a photo and recommends the optimal move. A two-stage hybrid pipeline pairs YOLOv8-Nano for localization (99.4% mAP50, 41ms) with ResNet-18 for classification (97.26% accuracy, 2.88ms), served from an isolated Flask API called directly by a Next.js client to bypass serverless cold starts. Game rules are solved in-browser with depth-first search and memoization, returning optimal 101-point and pair-opening strategies in under 10ms. Trained on a custom dataset of 4,432 labeled tiles across 55 classes, built with an OpenCV-assisted annotation pipeline that cut manual labeling from 50+ hours to about 1 hour. The React frontend allows real-time correction of misclassified tiles with instant recalculation, at 150-250ms end-to-end latency.",
+    tech: ["Python", "YOLOv8", "ResNet-18", "OpenCV", "Flask", "Next.js", "TypeScript"],
+    github: "https://github.com/enesscakmak/oyun-analizi",
+    demo: "https://okey.enescakmak.net",
+  },
+  {
+    title: "Publication: Healthcare Sentiment Analysis with NLP",
+    description:
+      "Co-authored an NLP research paper published in “Yapay Zeka Tabanlı Sistemler: Teori, Uygulama ve Gelecek Perspektifleri-2” (BIDGE Yayınları), processing 12,600+ patient reviews collected from the NHS and RateMDs APIs and achieving a 76% F1-score with RoBERTa.",
+    tech: ["Python", "NLP", "RoBERTa", "Transformers"],
+  },
+  {
     title: "Research Paper: Suicide Content Detection with Deep Learning",
     description:
       "Authored a research paper on detecting suicidal intent in social media posts using deep learning models, implementing and comparing two novel models and achieving 97% accuracy. Conducted data preprocessing, feature extraction, and model evaluation.",
@@ -14,15 +28,15 @@ const resumeProjects = [
   {
     title: "Movie Recommendation App",
     description:
-      "Implemented a backend recommendation engine using collaborative filtering and cosine similarity, designing data processing logic to analyze user preferences and similarity scores.",
-    tech: ["Python", "Collaborative Filtering", "Pandas"],
+      "Java desktop application built with JavaFX (FXML, SceneBuilder) that recommends films from the MovieLens dataset, implementing collaborative filtering with cosine similarity over user ratings. Includes registration and login with JSON-based persistence, built with Maven.",
+    tech: ["Java", "JavaFX", "Maven", "Collaborative Filtering"],
     github: "https://github.com/enesscakmak/movie-recommendation-java",
     image: "/movie-recommendation-app.png",
   },
   {
     title: "Personal Portfolio Website",
     description:
-      "Developed a responsive portfolio application using Next.js and React with interactive UI components and accessibility optimizations. Deployed via GitHub Pages and Cloudflare Pages.",
+      "Responsive portfolio application built with Next.js and React with interactive UI components and accessibility optimizations. Deployed on Cloudflare Pages with automated builds.",
     tech: ["Next.js", "React", "Tailwind CSS"],
     github: "https://github.com/enesscakmak/enesscakmak.github.io",
     demo: "https://enescakmak.net",
@@ -155,7 +169,7 @@ export default function ProjectsPage() {
               <div>
                 <h1 className="text-2xl font-bold tracking-tight md:text-3xl mb-4 text-zinc-900 dark:text-zinc-50">Projects</h1>
                 <p className="text-base text-zinc-600 dark:text-zinc-400 mb-6">
-                  Selected work spanning backend services, research, and full-stack web applications.
+                  Selected work spanning backend services, computer vision, research publications, and full-stack web applications.
                 </p>
               </div>
 

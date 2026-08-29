@@ -8,6 +8,19 @@ import { withBasePath } from "@/utils/path";
 
 const resumeProjectCards = [
 	{
+		title: "Project & Research Paper: Game Analysis with Image Processing",
+		description:
+			"Computer vision system that reads Okey tiles from a photo and recommends the optimal move, using YOLOv8-Nano detection (99.4% mAP50) plus ResNet-18 classification (97.26%), with a DFS + memoization solver running in-browser under 10ms.",
+		tags: ["Python", "YOLOv8", "OpenCV", "Flask", "Next.js"],
+		link: "https://github.com/enesscakmak/oyun-analizi",
+	},
+	{
+		title: "Publication: Healthcare Sentiment Analysis with NLP",
+		description:
+			"Co-authored an NLP paper published by BIDGE Yayınları, processing 12,600+ patient reviews from the NHS and RateMDs APIs and reaching a 76% F1-score with RoBERTa.",
+		tags: ["Python", "NLP", "RoBERTa"],
+	},
+	{
 		title: "Research Paper: Suicide Content Detection",
 		description:
 			"Authored a research paper on detecting suicidal intent in social media posts with deep learning, comparing two novel models and achieving 97% accuracy.",
@@ -16,8 +29,8 @@ const resumeProjectCards = [
 	{
 		title: "Movie Recommendation App",
 		description:
-			"Backend recommendation engine using collaborative filtering and cosine similarity to analyze user preferences and similarity scores.",
-		tags: ["Python", "Collaborative Filtering", "Pandas"],
+			"Java desktop app built with JavaFX that recommends films from the MovieLens dataset using collaborative filtering and cosine similarity, with JSON-based user accounts.",
+		tags: ["Java", "JavaFX", "Maven"],
 		link: "https://github.com/enesscakmak/movie-recommendation-java",
 	},
 ];
@@ -70,11 +83,12 @@ export default function Home() {
 								</h1>
 								<p className="max-w-[60ch] text-base text-zinc-600 dark:text-zinc-400">
 									Hi, I'm Enes Çakmak, a Computer Engineering
-									student at Marmara University seeking a
+									graduate from Marmara University seeking a
 									Junior Backend or Full-Stack Developer role.
 									I build internal services and REST APIs with
-									.NET 10, Java Spring Boot and PostgreSQL,
-									and ship full-stack interfaces with React.
+									.NET 10, C#, and Kotlin with Spring Boot on
+									PostgreSQL, and ship production frontends with
+									React and TypeScript.
 								</p>
 							</div>
 							<div className="flex items-center gap-4">
@@ -182,21 +196,23 @@ export default function Home() {
 							<div className="grid gap-12 md:grid-cols-2">
 								<div className="space-y-4">
 									<p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
-										I'm a Computer Engineering student at
-										Marmara University in Istanbul,
-										experienced in backend development with
-										.NET 10, Java Spring Boot, PostgreSQL,
-										and REST APIs—building internal
-										services, implementing endpoints, and
-										maintaining production systems.
+										I'm a Computer Engineering graduate from
+										Marmara University in Istanbul, with
+										backend experience across two stacks
+										(.NET 10 with C# and ASP.NET Core, and
+										Kotlin with Spring Boot). I build
+										internal services from scratch, design
+										REST APIs, and maintain production
+										systems on PostgreSQL.
 									</p>
 									<p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
-										I've worked with CI/CD pipelines,
-										Kubernetes deployments, and log
-										monitoring with OpenSearch. On the
-										frontend I use React, Next.js, and
-										Tailwind CSS. I'm open to junior backend
-										and full-stack opportunities.
+										I work with Docker, CI/CD pipelines,
+										Kubernetes, HashiCorp Vault, and log
+										monitoring with OpenSearch. On the frontend I
+										ship micro-frontend applications in React,
+										TypeScript, Redux, and Tailwind CSS. I'm open
+										to junior backend and full-stack
+										opportunities.
 									</p>
 								</div>
 								<div className="space-y-8">
@@ -205,11 +221,12 @@ export default function Home() {
 									</h3>
 									<div className="grid grid-cols-2 gap-4">
 										{[
-											".NET 10",
-											"Java Spring Boot",
+											".NET 10 / C#",
+											"Kotlin / Spring Boot",
 											"PostgreSQL",
-											"React",
+											"React / TypeScript",
 											"Next.js",
+											"Docker",
 											"Kubernetes",
 											"Git",
 										].map((tech) => (
@@ -323,8 +340,8 @@ function FeaturedProject() {
 						<p className="text-sm text-zinc-600 dark:text-zinc-400">
 							Responsive portfolio built with Next.js and React,
 							with interactive UI components and accessibility
-							optimizations. Deployed on GitHub Pages and
-							Cloudflare Pages.
+							optimizations. Deployed on Cloudflare Pages with
+							automated builds.
 						</p>
 					</div>
 					<div className="flex flex-wrap gap-2">
@@ -360,8 +377,8 @@ function FeaturedProject() {
 				</div>
 				<div className="flex items-center justify-center rounded-lg border border-zinc-200 bg-zinc-100 p-8 dark:border-zinc-800 dark:bg-zinc-800">
 					<p className="text-center text-sm text-zinc-600 dark:text-zinc-400">
-						This site — built with Next.js, deployed to GitHub Pages
-						and Cloudflare Pages.
+						This site is built with Next.js and Tailwind CSS,
+						deployed on Cloudflare Pages.
 					</p>
 				</div>
 			</div>
