@@ -1,0 +1,15 @@
+<svg width="448" height="448" viewBox="0 0 448 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M416 0H32C14.3269 0 0 14.3269 0 32V416C0 433.673 14.3269 448 32 448H416C433.673 448 448 433.673 448 416V32C448 14.3269 433.673 0 416 0Z" fill="url(#paint0_linear_1_12)"/>
+<path d="M53 88H223V128H93V203H193V243H93V320H223V360H53V88Z" fill="#111111"/>
+<path d="M282.2 148.95L229 195.5L282.2 242.05" stroke="white" stroke-width="12" stroke-linecap="round"/>
+<path d="M315.45 262L348.7 129" stroke="white" stroke-width="12" stroke-linecap="round"/>
+<path d="M381.95 148.95L435.15 195.5L381.95 242.05" stroke="white" stroke-width="12" stroke-linecap="round"/>
+<path d="M257 276C262.683 291.31 272.915 304.514 286.322 313.839C299.729 323.163 315.669 328.161 332 328.161C348.331 328.161 364.271 323.163 377.678 313.839C391.085 304.514 401.317 291.31 407 276L442 301C432.665 322.411 417.285 340.632 397.746 353.428C378.206 366.225 355.357 373.042 332 373.042C308.643 373.042 285.794 366.225 266.254 353.428C246.715 340.632 231.335 322.411 222 301L257 276Z" fill="white"/>
+<path d="M332 355C352 355 367 363 367 380C367 400 352 413 322 413H307V385H322C332 385 337 383 337 378C337 372 332 370 322 370H307V343L332 355Z" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_1_12" x1="0" y1="0" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1A2A9C"/>
+<stop offset="1" stop-color="#24E0E8"/>
+</linearGradient>
+</defs>
+</svg>

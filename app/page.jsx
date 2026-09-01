@@ -8,6 +8,13 @@ import { withBasePath } from "@/utils/path";
 
 const resumeProjectCards = [
 	{
+		title: "Movie Recommendation Web App",
+		description:
+			"Full-stack recommendation platform on the MovieLens ml-32m dataset (32M ratings). Sign in with Google and rate movies to get personalized picks from an offline-trained item-item CF engine served as a static lookup table, deployed on Cloudflare Workers with D1.",
+		tags: ["Next.js", "TypeScript", "Cloudflare Workers", "Cloudflare D1", "NextAuth"],
+		link: "https://github.com/enesscakmak/movie-recommendation-page",
+	},
+	{
 		title: "Project & Research Paper: Game Analysis with Image Processing",
 		description:
 			"Computer vision system that reads Okey tiles from a photo and recommends the optimal move, using YOLOv8-Nano detection (99.4% mAP50) plus ResNet-18 classification (97.26%), with a DFS + memoization solver running in-browser under 10ms.",
@@ -27,7 +34,7 @@ const resumeProjectCards = [
 		tags: ["Python", "Deep Learning", "NLP"],
 	},
 	{
-		title: "Movie Recommendation App",
+		title: "Movie Recommendation App (Java Desktop)",
 		description:
 			"Java desktop app built with JavaFX that recommends films from the MovieLens dataset using collaborative filtering and cosine similarity, with JSON-based user accounts.",
 		tags: ["Java", "JavaFX", "Maven"],
@@ -325,10 +332,10 @@ function FeaturedProject() {
 					<div className="space-y-2">
 						<div className="flex items-center gap-2">
 							<h3 className="text-xl font-medium text-zinc-900 dark:text-zinc-50">
-								Personal Portfolio Website
+								Movie Recommendation Web App
 							</h3>
 							<Link
-								href="https://enescakmak.net"
+								href="https://movie.enescakmak.net"
 								className="text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50"
 								target="_blank"
 								rel="noopener noreferrer"
@@ -338,14 +345,17 @@ function FeaturedProject() {
 							</Link>
 						</div>
 						<p className="text-sm text-zinc-600 dark:text-zinc-400">
-							Responsive portfolio built with Next.js and React,
-							with interactive UI components and accessibility
-							optimizations. Deployed on Cloudflare Pages with
-							automated builds.
+							Full-stack recommendation platform built on the
+							MovieLens ml-32m dataset (32M ratings, 87,585
+							movies). Sign in with Google, rate movies, and get
+							personalized picks from an offline-trained
+							item-item collaborative filtering engine served as
+							a static lookup table — no MovieLens user data
+							ever reaches the browser.
 						</p>
 					</div>
 					<div className="flex flex-wrap gap-2">
-						{["Next.js", "React", "Tailwind CSS"].map((tag) => (
+						{["Next.js", "TypeScript", "Cloudflare Workers", "Cloudflare D1", "NextAuth"].map((tag) => (
 							<span
 								key={tag}
 								className="inline-flex items-center rounded-full bg-zinc-100 dark:bg-zinc-800 px-2.5 py-0.5 text-xs font-medium text-zinc-700 dark:text-zinc-300"
@@ -357,16 +367,18 @@ function FeaturedProject() {
 					<div className="flex items-center gap-4">
 						<Button variant="default" asChild>
 							<Link
-								href="https://enescakmak.net"
+								href="https://movie.enescakmak.net"
 								target="_blank"
 								rel="noopener noreferrer"
+								className="flex items-center"
 							>
+								<ExternalLink className="mr-2 h-4 w-4" />
 								View Project
 							</Link>
 						</Button>
 						<Button variant="secondary" asChild>
 							<Link
-								href="https://github.com/enesscakmak/enesscakmak.github.io"
+								href="https://github.com/enesscakmak/movie-recommendation-page"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -377,8 +389,9 @@ function FeaturedProject() {
 				</div>
 				<div className="flex items-center justify-center rounded-lg border border-zinc-200 bg-zinc-100 p-8 dark:border-zinc-800 dark:bg-zinc-800">
 					<p className="text-center text-sm text-zinc-600 dark:text-zinc-400">
-						This site is built with Next.js and Tailwind CSS,
-						deployed on Cloudflare Pages.
+						Item-item collaborative filtering trained offline on
+						32M ratings, served from a ~700KB neighbour table for
+						instant, privacy-preserving recommendations.
 					</p>
 				</div>
 			</div>
