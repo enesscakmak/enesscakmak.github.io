@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ExternalLink } from "lucide-react";
 
@@ -34,11 +35,11 @@ const resumeProjectCards = [
 		tags: ["Python", "Deep Learning", "NLP"],
 	},
 	{
-		title: "Movie Recommendation App (Java Desktop)",
+		title: "To-Do App",
 		description:
-			"Java desktop app built with JavaFX that recommends films from the MovieLens dataset using collaborative filtering and cosine similarity, with JSON-based user accounts.",
-		tags: ["Java", "JavaFX", "Maven"],
-		link: "https://github.com/enesscakmak/movie-recommendation-java",
+			"Full-featured to-do app — REST API + React SPA on a single Cloudflare Worker. Google sign-in, tags, subtasks, drag-and-drop reordering, and soft-delete with trash/undo, backed by Cloudflare D1 via Drizzle ORM.",
+		tags: ["Hono", "Cloudflare Workers", "Cloudflare D1", "React", "TypeScript"],
+		link: "https://github.com/enesscakmak/to-do",
 	},
 ];
 
@@ -58,11 +59,11 @@ const moreProjectCards = [
 		link: "https://github.com/enesscakmak/cv-builder",
 	},
 	{
-		title: "To-Do Page and App",
+		title: "Movie Recommendation App (Java Desktop)",
 		description:
-			"To-Do app with Python Tkinter and a Flask website using SQL and Bootstrap.",
-		tags: ["HTML", "Bootstrap", "JavaScript", "Python", "Flask", "SQL"],
-		link: "https://github.com/enesscakmak/to-do",
+			"Java desktop app built with JavaFX that recommends films from the MovieLens dataset using collaborative filtering and cosine similarity, with JSON-based user accounts.",
+		tags: ["Java", "JavaFX", "Maven"],
+		link: "https://github.com/enesscakmak/movie-recommendation-java",
 	},
 	{
 		title: "Multiplayer Bomberman Variation Game",
@@ -387,12 +388,14 @@ function FeaturedProject() {
 						</Button>
 					</div>
 				</div>
-				<div className="flex items-center justify-center rounded-lg border border-zinc-200 bg-zinc-100 p-8 dark:border-zinc-800 dark:bg-zinc-800">
-					<p className="text-center text-sm text-zinc-600 dark:text-zinc-400">
-						Item-item collaborative filtering trained offline on
-						32M ratings, served from a ~700KB neighbour table for
-						instant, privacy-preserving recommendations.
-					</p>
+				<div className="relative min-h-[200px] overflow-hidden rounded-lg border border-zinc-200 dark:border-zinc-800">
+					<Image
+						src="/movie-recommender-page.png"
+						alt="Movie Recommendation Web App"
+						fill
+						className="object-cover"
+						priority
+					/>
 				</div>
 			</div>
 		</Card>

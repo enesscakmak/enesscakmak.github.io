@@ -23,10 +23,11 @@ const moreProjects = [
     github: "https://github.com/enesscakmak/online-bomberman-variation",
   },
   {
-    title: "To-Do Page and App",
-    description: "To-Do app made with Python Tkinter and website made using Flask, SQL and Bootstrap.",
-    tech: ["HTML", "Bootstrap", "JavaScript", "Python", "Flask", "SQL"],
-    github: "https://github.com/enesscakmak/to-do",
+    title: "Movie Recommendation App (Java Desktop)",
+    description: "Java desktop application built with JavaFX (FXML, SceneBuilder) that recommends films from the MovieLens dataset, implementing collaborative filtering with cosine similarity over user ratings. Includes registration and login with JSON-based persistence, built with Maven.",
+    tech: ["Java", "JavaFX", "Maven", "Collaborative Filtering"],
+    image: "/movie-recommendation-app.png",
+    github: "https://github.com/enesscakmak/movie-recommendation-java",
   },
   {
     title: "Library Page",

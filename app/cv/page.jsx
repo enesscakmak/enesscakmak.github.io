@@ -106,10 +106,18 @@ const projects = [
 		],
 	},
 	{
-		title: "Movie Recommendation App",
+		title: "Movie Recommendation Web App",
 		bullets: [
-			"Built a Java desktop application with JavaFX (FXML, SceneBuilder) that recommends films from the MovieLens dataset, implementing collaborative filtering with cosine similarity over user ratings.",
-			"Added user registration and login with JSON-based persistence, and managed the build with Maven.",
+			"Built a full-stack recommendation platform on the MovieLens ml-32m dataset (32M ratings, 87,585 movies), with Google sign-in to rate movies, build a watchlist, and browse the catalog with genre/decade/rating filters.",
+			"Implemented an offline-trained item-item collaborative filtering engine (asymmetric cosine similarity with MMR re-ranking for diversity) served client-side from a compact static neighbour table, with no MovieLens user data ever reaching the browser.",
+			"Built with Next.js (App Router) and TypeScript, storing per-user ratings and watchlist data in Cloudflare D1 via Auth.js's Google adapter, deployed to Cloudflare Workers through OpenNext.",
+		],
+	},
+	{
+		title: "To-Do App",
+		bullets: [
+			"Built a full-featured to-do app with a REST API and React SPA served from a single Cloudflare Worker (one origin, no CORS, one deploy), with Google OAuth sign-in, tags, subtasks, and drag-and-drop reordering.",
+			"Implemented soft-delete with a trash view and undo, using Hono, Cloudflare D1 (SQLite) via Drizzle ORM, and Zod for request validation on the backend, with React 19, TypeScript, Vite, and Tailwind CSS 4 on the frontend.",
 		],
 	},
 	{
